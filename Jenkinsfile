@@ -11,7 +11,7 @@ pipeline {
 
         stage('Run Unit Tests') {
             steps {
-                sh 'python -m unittest TestCalculator'
+                bat 'python -m unittest TestCalculator'
             }
         }
     }
