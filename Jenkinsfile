@@ -24,7 +24,7 @@ pipeline {
     }
     post{ //parses the reports of our test results
         always{
-            junit 'test_results.xml'
+            junit 'test-results.xml'
         }
     }
 }
