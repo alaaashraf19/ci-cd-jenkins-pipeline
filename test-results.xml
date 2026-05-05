@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="TestCalculator.TestCalculator-20260505184435" tests="19" file="TestCalculator.py" time="0.005" timestamp="2026-05-05T18:44:35" failures="0" errors="0" skipped="0">
+		<testcase classname="TestCalculator.TestCalculator" name="test_add_float" time="0.001" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="18"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_add_mixed" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="15"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_add_negative" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="12"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_add_positive" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="9"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_division_by_zero" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="68"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_division_float" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="62"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_division_mixed" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="59"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_division_negative" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="56"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_division_positive" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="53"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_division_zero_numerator" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="65"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_multiplication_float" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="46"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_multiplication_mixed" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="43"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_multiplication_negative" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="40"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_multiplication_positive" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="37"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_multiplication_zero" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="49"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_subtraction_float" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="32"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_subtraction_mixed" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="29"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_subtraction_negative" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="26"/>
+		<testcase classname="TestCalculator.TestCalculator" name="test_subtraction_positive" time="0.000" timestamp="2026-05-05T18:44:35" file="TestCalculator.py" line="23"/>
+	</testsuite>
+</testsuites>

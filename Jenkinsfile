@@ -9,10 +9,15 @@ pipeline {
             }
         }
 
-        stage('Run Unit Tests') {
+        stage('Run Unit Tests') { //creates a report of each unit test
             steps {
-                bat 'python -m unittest TestCalculator'
+                bat 'python run_tests.py'
             }
+        }
+    }
+    post{ //parses the reports of our test results
+        always{
+            junit 'test_results.xml'
         }
     }
 }
