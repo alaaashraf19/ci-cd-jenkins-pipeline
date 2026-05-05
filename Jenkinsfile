@@ -8,6 +8,13 @@ pipeline {
                 checkout scm
             }
         }
+        
+        stage('install dependencies') {
+            steps {
+                bat 'python -m pip install --upgrade pip'
+                bat 'pip install -r requirements.txt'
+            }
+        }
 
         stage('Run Unit Tests') { //creates a report of each unit test
             steps {
